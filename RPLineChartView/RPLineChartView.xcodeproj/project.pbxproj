@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BE0F013212527D700664B32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE0F012212527D700664B32 /* AppDelegate.m */; };
+		2BE0F01B212527D800664B32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE0F01A212527D800664B32 /* Assets.xcassets */; };
+		2BE0F01E212527D800664B32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE0F01C212527D800664B32 /* LaunchScreen.storyboard */; };
+		2BE0F021212527D800664B32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE0F020212527D800664B32 /* main.m */; };
+		2BE0F02B212527D800664B32 /* RPLineChartViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE0F02A212527D800664B32 /* RPLineChartViewTests.m */; };
+		2BE0F036212527D800664B32 /* RPLineChartViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE0F035212527D800664B32 /* RPLineChartViewUITests.m */; };
+		2BE0F0452125280100664B32 /* RPRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE0F0442125280100664B32 /* RPRootViewController.m */; };
+		2BE0F0482125283800664B32 /* UIView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE0F0462125283800664B32 /* UIView+Ext.m */; };
+		2BE0F04B212528DA00664B32 /* RPDrawLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE0F04A212528DA00664B32 /* RPDrawLineView.m */; };
+		2BE0F04E2125297300664B32 /* RPScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE0F04D2125297300664B32 /* RPScrollView.m */; };
+		2BE0F05021252CDD00664B32 /* gif_RPLineChartView.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2BE0F04F21252CDC00664B32 /* gif_RPLineChartView.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BE0F027212527D800664B32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BE0F006212527D700664B32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BE0F00D212527D700664B32;
+			remoteInfo = RPLineChartView;
+		};
+		2BE0F032212527D800664B32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BE0F006212527D700664B32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BE0F00D212527D700664B32;
+			remoteInfo = RPLineChartView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BE0F00E212527D700664B32 /* RPLineChartView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPLineChartView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE0F011212527D700664B32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BE0F012212527D700664B32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BE0F01A212527D800664B32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BE0F01D212527D800664B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BE0F01F212527D800664B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BE0F020212527D800664B32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BE0F026212527D800664B32 /* RPLineChartViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPLineChartViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE0F02A212527D800664B32 /* RPLineChartViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPLineChartViewTests.m; sourceTree = "<group>"; };
+		2BE0F02C212527D800664B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BE0F031212527D800664B32 /* RPLineChartViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPLineChartViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE0F035212527D800664B32 /* RPLineChartViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPLineChartViewUITests.m; sourceTree = "<group>"; };
+		2BE0F037212527D800664B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BE0F0432125280100664B32 /* RPRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPRootViewController.h; sourceTree = "<group>"; };
+		2BE0F0442125280100664B32 /* RPRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPRootViewController.m; sourceTree = "<group>"; };
+		2BE0F0462125283800664B32 /* UIView+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Ext.m"; sourceTree = "<group>"; };
+		2BE0F0472125283800664B32 /* UIView+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Ext.h"; sourceTree = "<group>"; };
+		2BE0F049212528DA00664B32 /* RPDrawLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPDrawLineView.h; sourceTree = "<group>"; };
+		2BE0F04A212528DA00664B32 /* RPDrawLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPDrawLineView.m; sourceTree = "<group>"; };
+		2BE0F04C2125297300664B32 /* RPScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPScrollView.h; sourceTree = "<group>"; };
+		2BE0F04D2125297300664B32 /* RPScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPScrollView.m; sourceTree = "<group>"; };
+		2BE0F04F21252CDC00664B32 /* gif_RPLineChartView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif_RPLineChartView.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BE0F00B212527D700664B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE0F023212527D800664B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE0F02E212527D800664B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BE0F005212527D700664B32 = {
+			isa = PBXGroup;
+			children = (
+				2BE0F010212527D700664B32 /* RPLineChartView */,
+				2BE0F029212527D800664B32 /* RPLineChartViewTests */,
+				2BE0F034212527D800664B32 /* RPLineChartViewUITests */,
+				2BE0F00F212527D700664B32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BE0F00F212527D700664B32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BE0F00E212527D700664B32 /* RPLineChartView.app */,
+				2BE0F026212527D800664B32 /* RPLineChartViewTests.xctest */,
+				2BE0F031212527D800664B32 /* RPLineChartViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BE0F010212527D700664B32 /* RPLineChartView */ = {
+			isa = PBXGroup;
+			children = (
+				2BE0F011212527D700664B32 /* AppDelegate.h */,
+				2BE0F012212527D700664B32 /* AppDelegate.m */,
+				2BE0F0432125280100664B32 /* RPRootViewController.h */,
+				2BE0F0442125280100664B32 /* RPRootViewController.m */,
+				2BE0F04C2125297300664B32 /* RPScrollView.h */,
+				2BE0F04D2125297300664B32 /* RPScrollView.m */,
+				2BE0F049212528DA00664B32 /* RPDrawLineView.h */,
+				2BE0F04A212528DA00664B32 /* RPDrawLineView.m */,
+				2BE0F0472125283800664B32 /* UIView+Ext.h */,
+				2BE0F0462125283800664B32 /* UIView+Ext.m */,
+				2BE0F04F21252CDC00664B32 /* gif_RPLineChartView.gif */,
+				2BE0F01A212527D800664B32 /* Assets.xcassets */,
+				2BE0F01C212527D800664B32 /* LaunchScreen.storyboard */,
+				2BE0F01F212527D800664B32 /* Info.plist */,
+				2BE0F020212527D800664B32 /* main.m */,
+			);
+			path = RPLineChartView;
+			sourceTree = "<group>";
+		};
+		2BE0F029212527D800664B32 /* RPLineChartViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BE0F02A212527D800664B32 /* RPLineChartViewTests.m */,
+				2BE0F02C212527D800664B32 /* Info.plist */,
+			);
+			path = RPLineChartViewTests;
+			sourceTree = "<group>";
+		};
+		2BE0F034212527D800664B32 /* RPLineChartViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BE0F035212527D800664B32 /* RPLineChartViewUITests.m */,
+				2BE0F037212527D800664B32 /* Info.plist */,
+			);
+			path = RPLineChartViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BE0F00D212527D700664B32 /* RPLineChartView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE0F03A212527D800664B32 /* Build configuration list for PBXNativeTarget "RPLineChartView" */;
+			buildPhases = (
+				2BE0F00A212527D700664B32 /* Sources */,
+				2BE0F00B212527D700664B32 /* Frameworks */,
+				2BE0F00C212527D700664B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RPLineChartView;
+			productName = RPLineChartView;
+			productReference = 2BE0F00E212527D700664B32 /* RPLineChartView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BE0F025212527D800664B32 /* RPLineChartViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE0F03D212527D800664B32 /* Build configuration list for PBXNativeTarget "RPLineChartViewTests" */;
+			buildPhases = (
+				2BE0F022212527D800664B32 /* Sources */,
+				2BE0F023212527D800664B32 /* Frameworks */,
+				2BE0F024212527D800664B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BE0F028212527D800664B32 /* PBXTargetDependency */,
+			);
+			name = RPLineChartViewTests;
+			productName = RPLineChartViewTests;
+			productReference = 2BE0F026212527D800664B32 /* RPLineChartViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BE0F030212527D800664B32 /* RPLineChartViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE0F040212527D800664B32 /* Build configuration list for PBXNativeTarget "RPLineChartViewUITests" */;
+			buildPhases = (
+				2BE0F02D212527D800664B32 /* Sources */,
+				2BE0F02E212527D800664B32 /* Frameworks */,
+				2BE0F02F212527D800664B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BE0F033212527D800664B32 /* PBXTargetDependency */,
+			);
+			name = RPLineChartViewUITests;
+			productName = RPLineChartViewUITests;
+			productReference = 2BE0F031212527D800664B32 /* RPLineChartViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BE0F006212527D700664B32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Tao;
+				TargetAttributes = {
+					2BE0F00D212527D700664B32 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					2BE0F025212527D800664B32 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 2BE0F00D212527D700664B32;
+					};
+					2BE0F030212527D800664B32 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 2BE0F00D212527D700664B32;
+					};
+				};
+			};
+			buildConfigurationList = 2BE0F009212527D700664B32 /* Build configuration list for PBXProject "RPLineChartView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BE0F005212527D700664B32;
+			productRefGroup = 2BE0F00F212527D700664B32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BE0F00D212527D700664B32 /* RPLineChartView */,
+				2BE0F025212527D800664B32 /* RPLineChartViewTests */,
+				2BE0F030212527D800664B32 /* RPLineChartViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BE0F00C212527D700664B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE0F01E212527D800664B32 /* LaunchScreen.storyboard in Resources */,
+				2BE0F01B212527D800664B32 /* Assets.xcassets in Resources */,
+				2BE0F05021252CDD00664B32 /* gif_RPLineChartView.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE0F024212527D800664B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE0F02F212527D800664B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BE0F00A212527D700664B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE0F04B212528DA00664B32 /* RPDrawLineView.m in Sources */,
+				2BE0F0482125283800664B32 /* UIView+Ext.m in Sources */,
+				2BE0F0452125280100664B32 /* RPRootViewController.m in Sources */,
+				2BE0F04E2125297300664B32 /* RPScrollView.m in Sources */,
+				2BE0F021212527D800664B32 /* main.m in Sources */,
+				2BE0F013212527D700664B32 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE0F022212527D800664B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE0F02B212527D800664B32 /* RPLineChartViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE0F02D212527D800664B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE0F036212527D800664B32 /* RPLineChartViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BE0F028212527D800664B32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BE0F00D212527D700664B32 /* RPLineChartView */;
+			targetProxy = 2BE0F027212527D800664B32 /* PBXContainerItemProxy */;
+		};
+		2BE0F033212527D800664B32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BE0F00D212527D700664B32 /* RPLineChartView */;
+			targetProxy = 2BE0F032212527D800664B32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BE0F01C212527D800664B32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BE0F01D212527D800664B32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BE0F038212527D800664B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BE0F039212527D800664B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BE0F03B212527D800664B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZPT469ZLS;
+				INFOPLIST_FILE = RPLineChartView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tao.RPLineChartView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BE0F03C212527D800664B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZPT469ZLS;
+				INFOPLIST_FILE = RPLineChartView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tao.RPLineChartView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2BE0F03E212527D800664B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZPT469ZLS;
+				INFOPLIST_FILE = RPLineChartViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tao.RPLineChartViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RPLineChartView.app/RPLineChartView";
+			};
+			name = Debug;
+		};
+		2BE0F03F212527D800664B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZPT469ZLS;
+				INFOPLIST_FILE = RPLineChartViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tao.RPLineChartViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RPLineChartView.app/RPLineChartView";
+			};
+			name = Release;
+		};
+		2BE0F041212527D800664B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZPT469ZLS;
+				INFOPLIST_FILE = RPLineChartViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tao.RPLineChartViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RPLineChartView;
+			};
+			name = Debug;
+		};
+		2BE0F042212527D800664B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZPT469ZLS;
+				INFOPLIST_FILE = RPLineChartViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tao.RPLineChartViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RPLineChartView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BE0F009212527D700664B32 /* Build configuration list for PBXProject "RPLineChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE0F038212527D800664B32 /* Debug */,
+				2BE0F039212527D800664B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE0F03A212527D800664B32 /* Build configuration list for PBXNativeTarget "RPLineChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE0F03B212527D800664B32 /* Debug */,
+				2BE0F03C212527D800664B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE0F03D212527D800664B32 /* Build configuration list for PBXNativeTarget "RPLineChartViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE0F03E212527D800664B32 /* Debug */,
+				2BE0F03F212527D800664B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE0F040212527D800664B32 /* Build configuration list for PBXNativeTarget "RPLineChartViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE0F041212527D800664B32 /* Debug */,
+				2BE0F042212527D800664B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BE0F006212527D700664B32 /* Project object */;
+}
